@@ -1,0 +1,46 @@
+{
+  "name": "animate-uikit",
+  "version": "1.0.1",
+  "description": "A React component for Lottie animations in web3 apps",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "lottie",
+    "animation",
+    "web3",
+    "nextjs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.24.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.7",
+    "lottie-web": "^5.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "thirdweb": "^5.64.1"
+  }
+}

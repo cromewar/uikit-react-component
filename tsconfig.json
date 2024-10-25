@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",  // Keep modern target
+    "module": "ESNext",  // Keep ESNext for Rollup bundling
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],  // Same lib setup
+    "jsx": "react",  // Use "react" to enable JSX handling by TypeScript
+    "esModuleInterop": true,
+    "moduleResolution": "node",  // Set to "node" for module resolution in Rollup
+    "skipLibCheck": true,  // Skip type checking of library files
+    "resolveJsonModule": true,
+    "declaration": true,  // Generate .d.ts declaration files for consumers
+    "outDir": "./dist",  // Output the compiled files into the dist folder
+    "sourceMap": true,  // Generate source maps
+    "strict": true  // Keep strict type checking
+  },
+  "include": ["src/**/*"],  // Only include your src folder for bundling
+  "exclude": ["node_modules"]  // Exclude node_modules
+}
